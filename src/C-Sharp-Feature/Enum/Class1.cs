@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericsExample
+namespace Enum
 {
-    internal class Shirt :Item
+  
+    internal enum DeliveryReport
     {
-        public string Color { get; set; }
+        NotDelivered ,
+        Delivered,
+        Seen
     }
 }

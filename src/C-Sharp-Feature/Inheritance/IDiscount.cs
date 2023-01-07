@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericsExample
+namespace Inheritance
 {
-    internal class Shirt :Item
+    public interface IDiscount 
     {
-        public string Color { get; set; }
+        int Am { get; set; }
+        int x();
     }
 }

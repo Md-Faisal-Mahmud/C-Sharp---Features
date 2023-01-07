@@ -1,5 +1,4 @@
 ﻿
-
 using Property_Auto_property;
 
 Teacher teacher = new Teacher();
