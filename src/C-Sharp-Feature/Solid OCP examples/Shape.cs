@@ -8,6 +8,7 @@ namespace Solid_OCP_examples
 {
     public abstract class Shape
     {
+        
         public abstract double Area();
     }
 }

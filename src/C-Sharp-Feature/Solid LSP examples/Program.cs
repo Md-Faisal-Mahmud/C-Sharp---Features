@@ -13,6 +13,7 @@ using Solid_LSP_examples;
 Car car = new Car();
 Clock clock = new Clock();
 
+
 car.Name = "Jamaloon";
 car.Price = (int)1e7;
 car.Weight = 1e3;
@@ -25,7 +26,8 @@ clock.Price = 3223; // here we can got the price of clock but it don't have a pr
 
 
 
-  
+
+
 
 
 

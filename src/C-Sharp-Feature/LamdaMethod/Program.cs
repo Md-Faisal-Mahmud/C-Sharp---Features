@@ -1,8 +1,11 @@
 ﻿using LamdaMethod;
+using System.Net.Http.Headers;
 using System.Transactions;
 
 Lamd lamd = new Lamd(4545,99);
 int x = lamd.Sum();
+
+
 
 Console.WriteLine(x);
 Console.WriteLine(lamd.Mul());

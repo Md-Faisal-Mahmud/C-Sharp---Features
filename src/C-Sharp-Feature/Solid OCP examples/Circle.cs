@@ -8,10 +8,10 @@ namespace Solid_OCP_examples
 {
     internal class Circle : Shape
     {
-        double radius;
+        public double Radius { get; set; }
         public override double Area()
         {
-            return radius * radius * radius * Math.PI;
+            return Math.PI * Radius * Radius;
         }
     }
 }
