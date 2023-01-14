@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{3FB91A1A-2A3B-4541-937C-22E712460A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{95F99EF0-6E61-4523-BF84-8184874A3261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{95F99EF0-6E61-4523-BF84-8184874A3261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid DIP examples 2", "Solid DIP examples 2\Solid DIP examples 2.csproj", "{3F6D9FA3-B50A-4A83-AF86-07E24A8B77EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{95F99EF0-6E61-4523-BF84-8184874A3261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F99EF0-6E61-4523-BF84-8184874A3261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F99EF0-6E61-4523-BF84-8184874A3261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6D9FA3-B50A-4A83-AF86-07E24A8B77EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6D9FA3-B50A-4A83-AF86-07E24A8B77EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6D9FA3-B50A-4A83-AF86-07E24A8B77EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6D9FA3-B50A-4A83-AF86-07E24A8B77EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
