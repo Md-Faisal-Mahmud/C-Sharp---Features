@@ -69,9 +69,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structures", "Structures\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterModifiers", "ParameterModifiers\ParameterModifiers.csproj", "{E24474B1-7E76-4B4D-A2F9-BA685AE25E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{456D010D-EB1E-4918-9C67-1803EDB3B522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", "{456D010D-EB1E-4918-9C67-1803EDB3B522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{3FB91A1A-2A3B-4541-937C-22E712460A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{3FB91A1A-2A3B-4541-937C-22E712460A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{95F99EF0-6E61-4523-BF84-8184874A3261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{3FB91A1A-2A3B-4541-937C-22E712460A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FB91A1A-2A3B-4541-937C-22E712460A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FB91A1A-2A3B-4541-937C-22E712460A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F99EF0-6E61-4523-BF84-8184874A3261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F99EF0-6E61-4523-BF84-8184874A3261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F99EF0-6E61-4523-BF84-8184874A3261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F99EF0-6E61-4523-BF84-8184874A3261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
