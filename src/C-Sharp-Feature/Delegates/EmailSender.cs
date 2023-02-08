@@ -53,7 +53,7 @@ namespace Delegates
 
                 //SendEmail(builder);
                 Console.WriteLine(builder.ToString());
-            }
+            }       
 
 
         }

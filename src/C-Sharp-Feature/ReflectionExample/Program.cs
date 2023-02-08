@@ -4,7 +4,7 @@ using System.Reflection;
 string className = Console.ReadLine();
 
 Type[] t = Assembly.GetExecutingAssembly().GetTypes();
-//Type t = Assembly.GetExecutingAssembly().GetType(className);  // Q1 ::::  In which situation we need GetTypes()
+//Type t = Assembly.GetExecutingAssembly().GetType(className);  // Q1 ::::  In which situation we need GetType()
 
 
 
