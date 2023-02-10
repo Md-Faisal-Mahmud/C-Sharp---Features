@@ -120,17 +120,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQ Query syntax", "LINQ Q
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ Query syntax 1", "LINQ Query syntax 1\LINQ Query syntax 1.csproj", "{5D5F1A1D-9EDA-4F0E-8C0A-150AAB4DB75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ Query syntax 2", "LINQ Query syntax 2\LINQ Query syntax 2.csproj", "{AAACF6BB-AF7E-49A1-A389-9C3BD2C5475B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ Query syntax 2", "LINQ Query syntax 2\LINQ Query syntax 2.csproj", "{AAACF6BB-AF7E-49A1-A389-9C3BD2C5475B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ Query syntax 3", "LINQ Query syntax 3\LINQ Query syntax 3.csproj", "{E4712CFF-5F48-430D-8578-563A3E02E6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ Query syntax 3", "LINQ Query syntax 3\LINQ Query syntax 3.csproj", "{E4712CFF-5F48-430D-8578-563A3E02E6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group cluse", "Group cluse\Group cluse.csproj", "{D4F531D4-BEC8-4A97-8AC0-831E37F503B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Group cluse", "Group cluse\Group cluse.csproj", "{D4F531D4-BEC8-4A97-8AC0-831E37F503B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Select clause", "Select clause\Select clause.csproj", "{FD3DB918-EBAF-4286-AFF0-26343124265D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Select clause", "Select clause\Select clause.csproj", "{FD3DB918-EBAF-4286-AFF0-26343124265D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "where clause", "where clause\where clause.csproj", "{71A7D3B5-4678-4E2E-A631-C8E4614FCCBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "where clause", "where clause\where clause.csproj", "{71A7D3B5-4678-4E2E-A631-C8E4614FCCBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAA Practice Practice Practice", "AAA Practice Practice Practice\AAA Practice Practice Practice.csproj", "{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAA Practice Practice Practice", "AAA Practice Practice Practice\AAA Practice Practice Practice.csproj", "{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inner Join", "Inner Join\Inner Join.csproj", "{6E11447C-BEC1-4371-B4D6-CB3707B10344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -378,6 +380,10 @@ Global
 		{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -396,6 +402,7 @@ Global
 		{FD3DB918-EBAF-4286-AFF0-26343124265D} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
 		{71A7D3B5-4678-4E2E-A631-C8E4614FCCBF} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
 		{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
+		{6E11447C-BEC1-4371-B4D6-CB3707B10344} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDE58E48-9F85-45A8-AEE6-6F08C3EF4FB0}
