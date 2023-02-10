@@ -132,7 +132,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "where clause", "where claus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAA Practice Practice Practice", "AAA Practice Practice Practice\AAA Practice Practice Practice.csproj", "{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inner Join", "Inner Join\Inner Join.csproj", "{6E11447C-BEC1-4371-B4D6-CB3707B10344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inner Join", "Inner Join\Inner Join.csproj", "{6E11447C-BEC1-4371-B4D6-CB3707B10344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left Join and Right Join", "Left Join and Right Join\Left Join and Right Join.csproj", "{14D86159-F7A3-4025-90EB-04DA5F540D52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -384,6 +386,10 @@ Global
 		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E11447C-BEC1-4371-B4D6-CB3707B10344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D86159-F7A3-4025-90EB-04DA5F540D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D86159-F7A3-4025-90EB-04DA5F540D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D86159-F7A3-4025-90EB-04DA5F540D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D86159-F7A3-4025-90EB-04DA5F540D52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -403,6 +409,7 @@ Global
 		{71A7D3B5-4678-4E2E-A631-C8E4614FCCBF} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
 		{13D37C55-E8E2-4356-BFE7-1B55C3C1DA4D} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
 		{6E11447C-BEC1-4371-B4D6-CB3707B10344} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
+		{14D86159-F7A3-4025-90EB-04DA5F540D52} = {2CF3611B-1558-446A-8992-89BFD4EB2BBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDE58E48-9F85-45A8-AEE6-6F08C3EF4FB0}
