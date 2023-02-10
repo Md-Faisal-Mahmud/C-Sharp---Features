@@ -22,7 +22,15 @@ List<Table2> table2 = new List<Table2>()
     };
 
 
+//var q = from c in table1
+//        join p in table2
+//        on c equals p.Category
+//        select (Category: c, p.ProductName);
 
+//foreach (var v in q)
+//{
+//    Console.WriteLine(v.ProductName + ": " + v.Category);
+//}
 
 
 #region   Inner Join
@@ -71,16 +79,24 @@ List<Table2> table2 = new List<Table2>()
 
 
 #region Left Outer Join
-var query = from n1 in table1
-            join n2 in table2
-            on n1.Id1 equals n2.Id2 into g
-            from r in g.DefaultIfEmpty()
-            select (n1, reg: r?.Regist ?? null, coun: r?.Country ?? null);
+//var query = from n1 in table1
+//            join n2 in table2
+//            on n1.Id1 equals n2.Id2 into g
+//            from r in g.DefaultIfEmpty()
+//            select (n1, reg: r?.Regist ?? null, coun: r?.Country ?? null);
 
-foreach (var table in query)
-{
-    Console.WriteLine(table.n1.Name + "    :   " + (table.reg == null ? "NULL" : table.reg) + "         :         " + (table.coun == null ? "NULL" : table.coun));
-}
+//foreach (var table in query)
+//{
+//    Console.WriteLine(table.n1.Name + "    :   " + (table.reg == null ? "NULL" : table.reg) + "         :         " + (table.coun == null ? "NULL" : table.coun));
+//}
+
+
+
+
+
+
+
+
 
 //var q = from a in table1
 //        join b in table2
